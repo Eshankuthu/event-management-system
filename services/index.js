@@ -1,9 +1,5 @@
-// index.js
 const fastify = require('fastify')({ logger: true });
-// const fetch = require('node-fetch');
 const { logger } = require('../utils/logger');
-
-
 const listenMock = require('../mock-server');
 
 // Environment Variables
